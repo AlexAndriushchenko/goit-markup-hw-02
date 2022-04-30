@@ -1,0 +1,56 @@
+/* color: #2196F3; голубой 
+color: #000000; черный
+++color: #212121; черный-портфолио
++++color: #757575; номер телефона
+++#FFFFFF; белый
+background: #2F303A;
+color: rgba(255, 255, 255, 0.6); подвал*/
+
+/* background: #FFFFFF; шапка
+background: #2F303A большой блок;
+background: #E5E5E5;
+background: #F5F4FA; наша команда
+ */
+
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #ffffff;
+  --accent-color: #2196f3;
+  --text-color: #757575;
+  --contact-color: rgba(255, 255, 255, 0.6);
+  --primary-bg-color: #2f303a;
+}
+
+.list {
+  list-style: none;
+}
+
+/* a {
+  text-decoration: none;
+} */
+
+body {
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  /* line-height: 1.14; */
+  letter-spacing: 0.03em;
+}
+
+/* Шапка сайта */
+.page-header {
+  /* background: #ffffff; */
+}
+
+.link-header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+
+  color: var(--primary-text-color);
+}
