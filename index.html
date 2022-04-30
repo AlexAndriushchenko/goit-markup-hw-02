@@ -17,19 +17,17 @@
   </head>
   <body>
     <!-- Шапка сайта -->
-    <header clss="page-header">
-      <nav class="site-nav">
-        <a href="/"
-          ><span class="web">Web</span> <span class="studio">Studio</span></a
-        >
+    <header>
+      <nav>
+        <a class="logo" href=""> Web<span class="logo-black">Studio</span></a>
         <ul class="list">
-          <li><a class="link-header" href="">Студия</a></li>
+          <li><a class="link-header link-active" href="">Студия</a></li>
           <li><a class="link-header" href="./portfolio.html">Портфолио</a></li>
           <li><a class="link-header" href="">Контакты</a></li>
         </ul>
       </nav>
 
-      <a class="link-contact" href="mailto:info@devstudio.com"
+      <a class="link-contact link-active" href="mailto:info@devstudio.com"
         >info@devstudio.com</a
       >
       <a class="link-contact" href="tel:+380961111111">+38 096 111 11 11</a>
@@ -45,32 +43,32 @@
       <!-- Преимущества -->
       <section>
         <!-- выводить этот заголовок не будем, сделал как в примере -->
-        <h2 class="invisible-header">Особенности</h2>
+        <h2 class="visually-hidden">Особенности</h2>
         <ul class="list advantages">
           <li>
             <h3 class="advantages-header">Внимание к деталям</h3>
-            <p>
+            <p class="advantages-text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
             <h3 class="advantages-header">Пунктуальность</h3>
-            <p>
+            <p class="advantages-text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
             <h3 class="advantages-header">Планирование</h3>
-            <p>
+            <p class="advantages-text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
             <h3 class="advantages-header">Современные технологии</h3>
-            <p>
+            <p class="advantages-text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -120,8 +118,8 @@
               width="270"
               height="260"
             />
-            <h3>Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <h3 class="team-member">Игорь Демьяненко</h3>
+            <p class="team-text">Product Designer</p>
           </li>
           <li>
             <img
@@ -130,8 +128,8 @@
               width="270"
               height="260"
             />
-            <h3>Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <h3 class="team-member">Ольга Репина</h3>
+            <p class="team-text">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -140,8 +138,8 @@
               width="270"
               height="260"
             />
-            <h3>Николай Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="team-member">Николай Тарасов</h3>
+            <p class="team-text">Marketing</p>
           </li>
           <li>
             <img
@@ -150,8 +148,8 @@
               width="270"
               height="260"
             />
-            <h3>Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <h3 class="team-member">Михаил Ермаков</h3>
+            <p class="team-text">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -159,11 +157,7 @@
 
     <!-- Футер -->
     <footer class="footer">
-      <!-- <a href="/">WebStudio</a> -->
-      <a href="/"
-        ><span class="web">Web</span>
-        <span class="footer-studio">Studio</span></a
-      >
+      <a class="logo" href=""> Web<span class="logo-white">Studio</span></a>
       <address class="footer-address">г. Киев, пр-т Леси Украинки, 26</address>
       <ul class="list">
         <li>
