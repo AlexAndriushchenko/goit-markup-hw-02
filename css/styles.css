@@ -84,7 +84,7 @@ body {
 
 /* hero */
 .hero {
-  background: var(--primary-bg-color);
+  background-color: var(--primary-bg-color);
 }
 
 .hero-title {
@@ -98,10 +98,7 @@ body {
 }
 
 .hero-button {
-  background: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -111,14 +108,19 @@ body {
   letter-spacing: 0.06em;
 
   color: #ffffff;
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--accent-color);
 }
 
 /* Преимущества */
 .advantages-header {
   font-weight: 700;
   text-transform: uppercase;
-
-  color: var(--primary-text-color);
 }
 
 .advantages-text {
@@ -133,12 +135,11 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  color: var(--primary-text-color);
 }
 
 /* Наша команда */
 .team {
-  background: #f5f4fa;
+  background-color: #f5f4fa;
 }
 
 .team-header {
@@ -146,7 +147,6 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  color: var(--primary-text-color);
 }
 
 .team-member {
@@ -154,7 +154,6 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  color: var(--primary-text-color);
 }
 
 .team-text {
@@ -166,7 +165,7 @@ body {
 
 /* Футер */
 .footer {
-  background: #2f303a;
+  background-color: #2f303a;
 }
 
 .footer-address {
@@ -178,4 +177,39 @@ body {
 .footer-contact {
   line-height: 1.71;
   color: var(--contact-color);
+}
+
+/* Portfolio */
+.portfolio-btn {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--primary-text-color);
+  cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--accent-color);
+}
+
+.btn-active {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+/* Галерея */
+.gallery-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.gallery-text {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--text-color);
 }
