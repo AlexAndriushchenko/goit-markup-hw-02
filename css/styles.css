@@ -8,7 +8,7 @@
   --primary-bg-color: #2f303a;
   --team-bg-color: #f5f4fa;
   --main-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway" sans-serif;
+  --secondary-font: "Raleway", sans-serif;
 }
 
 body {
